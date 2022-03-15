@@ -7,7 +7,7 @@ public class Student {
         this.id=id;
         this.name=name;
         this.yearStudy=yearStudy;
-        dadad
+
     }
 
     public int getId() {
@@ -34,4 +34,9 @@ public class Student {
         this.yearStudy = yearStudy;
     }
 
+
+
+
 }
+
+

@@ -3,7 +3,7 @@ public class BussinesUBBTest {
         PaymentLogic paymentLogic = new PaymentLogic(4000);
 
         Fee fee = new Fee(4000, "RON", FeeType.ANNUAL, 0);
-// new lesons - call back-uri
+// new lesons 14.03.2022 - call back-uri
         paymentLogic.payFee(fee, new FeeResponse() {
             @Override
             public void success(String successMessage) {
