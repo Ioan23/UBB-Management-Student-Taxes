@@ -1,13 +1,15 @@
 public class Student {
     private int id;
+    private String firstName;
     private String name;
     private int yearStudy;
 
-    public Student (int id, String name, int yearStudy){
+    public Student (int id, String firstName, String name, int yearStudy){
         this.id=id;
+        this.firstName=firstName;
         this.name=name;
         this.yearStudy=yearStudy;
-        dadad
+
     }
 
     public int getId() {
@@ -33,5 +35,6 @@ public class Student {
     public void setYearStudy(int yearStudy) {
         this.yearStudy = yearStudy;
     }
+
 
 }
