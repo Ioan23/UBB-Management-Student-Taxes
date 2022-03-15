@@ -1,18 +1,14 @@
 public class Fee {
-    private double amount = 3000.0;
-    private String currency =  "RON";
+    private double amount;
+    private String currency;
     private double discount = 0;
     private FeeType feeType;
 
-    public <feeType> Fee(double amount, String currency, double discount, FeeType feeType){
+    public Fee(double amount, String currency, FeeType feeType, double discount){
         this.amount=amount;
         this.currency=currency;
-        this.discount=discount;
         this.feeType=feeType;
-    }
-
-    public Fee() {
-
+        this.discount = discount;
     }
 
     public double getAmount() {
