@@ -1,4 +1,4 @@
-public class BussinesUBBTest {
+public class BusinessUBBTest {
     public static void main(String[] args) {
         PaymentLogic paymentLogic = new PaymentLogic(4000);
 
