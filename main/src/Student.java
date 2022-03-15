@@ -32,4 +32,5 @@ public class Student {
     public void setYearStudy(int yearStudy) {
         this.yearStudy = yearStudy;
     }
+
 }
